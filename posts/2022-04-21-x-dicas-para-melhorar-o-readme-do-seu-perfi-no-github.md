@@ -1,50 +1,57 @@
-<img align="right" alt="Developer vector created by storyset - www.freepik.com" height="400" src="https://user-images.githubusercontent.com/97471199/164148375-75b79a9a-77a4-43df-b3fd-b6472d8a8670.png">
-
-<h1 id="top" align="left">About me</h1>
-
-<p align="left">Hi! My name is <strong>Elidiana Andrade</strong>, I am an architect and urban planner and an aspiring web developer.</p>
-
-<h3 align="left">Studying</h3>
-
-[![React.JS](https://img.shields.io/badge/React.JS-000?style=for-the-badge&logo=react&logoColor=61dafb)](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
-
-
-<h3 align="left">Main skills</h3>
-
-[![HTML5](https://img.shields.io/badge/HTML5-D5F7E6?style=for-the-badge&logo=html5&logoColor=E34F26)](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-D5F7E6?style=for-the-badge&logo=css3&logoColor=00BFFF)](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-[![JavaScript](https://img.shields.io/badge/JavaScript-D5F7E6?style=for-the-badge&logo=javascript&logoColor=F7DF1E)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-
-<h3 align="left">Tools</h3>
-
-![Git](https://img.shields.io/badge/Git-FFF?style=for-the-badge&logo=git)
-![Visual Studio Code](https://img.shields.io/badge/VS%20Code-FFF?style=for-the-badge&logo=visual-studio-code&logoColor=00BFFF)
-![Figma](https://img.shields.io/badge/Figma-D5F7E6?style=for-the-badge&logo=figma&logoColor=ff24bd)
-![Microsoft SQL Server](https://img.shields.io/badge/SQL%20Server-D5F7E6?style=for-the-badge&logo=microsoft-sql-server&logoColor=EF322B)
-![Power BI](https://img.shields.io/badge/Power%20BI-D5F7E6?style=for-the-badge&logo=power-bi)
-![Blender](https://img.shields.io/badge/Blender-D5F7E6?style=for-the-badge&logo=blender)
-![Adobe Photoshop](https://img.shields.io/badge/Photoshop-D5F7E6?style=for-the-badge&logo=adobe-photoshop)
-![Adobe Premiere](https://img.shields.io/badge/Premiere-D5F7E6?style=for-the-badge&logo=adobe-premiere-pro&logoColor=9999FF)
-![Microsoft Office](https://img.shields.io/badge/Office-D5F7E6?style=for-the-badge&logo=microsoft-office&logoColor=EB3D01)
+<div id="top" align="center">
+  <a href="https://github.com/elidianaandrade">
+    <img alt="README GitHub" src="https://github.com/elidianaandrade/archstil-netflix-clone/blob/main/assets/img/archstil-screen.png?raw=true">
+  </a>
+</div>
 
 <br>
 
-<h3 align="left">Connect with me</h3>
+<h1 align="left">
+  3 Dicas para melhorar o README do seu perfil no GitHub
+</h1>
 
-[![E-mail](https://img.shields.io/badge/-elidianaandrade@outlook.com-000?style=for-the-badge&logo=microsoft-outlook&logoColor=72E7B2&color:FFF)](mailto:elidianaandrade@outlook.com)
-[![Instagram](https://img.shields.io/badge/-Instagram-000?style=for-the-badge&logo=instagram&logoColor=72E7B2&color:FFF)](https://instagram.com/elidianaandrade)
-[![Twitter](https://img.shields.io/badge/-Twitter-000?style=for-the-badge&logo=twitter&logoColor=72E7B2&color:FFF)](https://twitter.com/elidianaandrade)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=72E7B2&color:FFF)](https://www.linkedin.com/in/elidianaandrade/)
-
-<br>
-
-<h3 align="left">GitHub Stats</h3>
-
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=elidianaandrade&hide_title=true&show_icons=true&include_all_commits=false&count_private=true&line_height=25&hide=issues&bg_color=30,D5F7E6,FFF&text_color=000&border_radius=3&border_color=FFF&icon_color=1B2E35&theme=swift)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=elidianaandrade&hide_title=false&count_private=true&layout=compact&card_width=297&show_icons=true&title_color=000&bg_color=30,FFF,D5F7E6&text_color=000&border_radius=3&border_color=FFF)](https://github.com/elidianaandrade/github-readme-stats)
+<p align="justify">
+ Uma das primeiras coisas 
+</p>
 
 <br>
 
+<!-- DICA 1 -->
+<h2 align="left" text-decoration="none">
+1. Escreva uma breve descrição sobre você 
+</h2>
+<p align="v">
+ Fale um pouco sobre você. É interessante ser objetivo e falar a área que atua e/ou seus objetivos. 
+</p>
+
+<br>
+
+<img align="right" alt="Developer vector created by storyset - www.freepik.com" height="350" src="https://user-images.githubusercontent.com/97471199/164148375-75b79a9a-77a4-43df-b3fd-b6472d8a8670.png">
+
+
+<!-- DICA 2 -->
+<h2 align="left">
+2. Adicione uma ilustração ou imagem que você se identifique
+</h2>
+
+<p align="justify">
+ No meu perfil, por exemplo, optei por utilizar essa ilustração que encontrei no <a href="https://www.freepik.com/vectors/developer">storyset - www.freepik.com</a>, pois trouxe vários elementos que se conectam comigo.<br>
+  Um dos pontos foi o desktop, a maioria das ilustrações que eu encontrava eram desenvolvedores em notebook, e me identifiquei com essa porque utilizo desktop. Além disso, tem o café preto quentinho (a única diferença é que mantenho ele longe do computador 🤣).<br>
+
+
+<h3 align="left">
+Sites com imagens para uso gratuito
+</h3>
+
+- <a href="https://www.freepik.com/vectors/developer">Freepik</a>
+- <a href="https://www.pexels.com/">Pexels</a><br>
+
+<br>
+
+  Embora grande parte das imagens do Pexels não seja necessário citar os créditos, no Freepik é necessária atribuição. Você pode fazer isso adicionando uma seção de créditos. No meu caso, para deixar mais discreto, pois se trata do README do perfil, optei por fazer a seção da seguinte forma:
+</p>
+
+```html
 <details align="left">
   <summary><b>Credits</b></summary> 
   - Badges by <a href="https://shields.io/">shields.io</a>
@@ -53,25 +60,23 @@
   <br>
   - Developer vector created by <a href="https://www.freepik.com/vectors/developer">storyset - www.freepik.com</a>
 </details>
+```
+
+<br>
+
+<!-- DICA 3 -->
+<h2 align="left">
+3. Defina uma paleta de cores harmônica
+</h2>
+<p align="justify">
+  Caso não tenha uma paleta definida, mas queira utilizar alguma ilustração ou imagem, tome partido da paleta de cores existentes nela para deixar o perfil mais harmônico. Uma dica é utilizar algum editor de imagem, alguma extensão, ou qualquer outro método para obter o código das cores presentes.
+  Outra opção é buscar num gerador online, como o <a href="https://color.adobe.com/pt/create/color-wheel">Adobe Color</a>.
+</p>
+
+<br>
+
 <div align="right">
   <a href="#top">
     <img alt="Up" height="25" src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/angle-up.svg">
   </a>
 </div>
-
-<h3 align="left">Connect with me</h3>
-<div align="left">
-  <a href="mailto:elidianaandrade@outlook.com">
-    <img alt="E-mail" height="35" src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/square-envelope.svg">
-  </a> 
-  <a href="https://instagram.com/elidianaandrade" target="_blank">
-    <img alt="Instagram" height="35" src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/instagram-square.svg">
-  </a>
-  <a href="https://twitter.com/elidianaandrade" target="_blank">
-   <img alt="Twitter" height="35" src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/twitter-square.svg">
-  </a>
-  <a href="https://www.linkedin.com/in/elidianaandrade/" target="_blank">
-   <img alt="LinkedIn" height="35" src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/linkedin.svg">
-  </a>
-</div>
-
