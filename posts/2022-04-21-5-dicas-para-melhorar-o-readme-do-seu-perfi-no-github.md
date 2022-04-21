@@ -1,6 +1,6 @@
 <div id="top" align="center">
   <a href="https://github.com/elidianaandrade">
-    <img alt="README GitHub" src="https://github.com/elidianaandrade/blog/blob/main/media/ea-github.png?raw=true">
+    <img width="100%" alt="README GitHub" src="https://github.com/elidianaandrade/blog/blob/main/media/ea-github-dark-light.gif?raw=true">
   </a>
 </div>
 
@@ -89,8 +89,13 @@ Você pode conferir os parâmetros para personalização em https://shields.io/.
 
 <h3 align="left">Pense no contraste Dark/Light</h3>
 <p align="justify">
-  Ao escolher sua paleta, lembre-se do contraste que as cores adotadas geram nos modos dark / light tendo em vista os diferentes tipos de usuários que vão visitar o seu perfil.<br>
+  Ao escolher sua paleta, lembre-se do contraste que as cores adotadas geram nos modos dark / light tendo em vista os diferentes tipos de usuários que vão visitar o seu perfil.
 </p>
+
+<br>
+
+<img align="left" width="48%" alt="README GitHub" src="https://github.com/elidianaandrade/blog/blob/main/media/ea-github-dark.png?raw=true"><img width="48%" alt="README GitHub" src="https://github.com/elidianaandrade/blog/blob/main/media/ea-github-light.png?raw=true">
+
 
 <br>
 
