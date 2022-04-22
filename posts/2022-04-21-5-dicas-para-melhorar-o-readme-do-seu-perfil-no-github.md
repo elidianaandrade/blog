@@ -114,7 +114,7 @@ Basta adicionar `bg_color=angulo,cor1,cor2`, nesse caso utilizei `bg_color=30,FF
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=elidianaandrade&show_icons=true&include_all_commits=true&count_private=true&bg_color=30,FFF,D6DAFF&border_color=FFF&text_color=000&theme=jolly)
 
 ```
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=elidianaandrade&show_icons=true&include_all_commits=true&count_private=true&bg_color=30,FFF,D6DAFF&border_color=FFF&text_color=000&theme=jolly)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=SEUNOMEDEUSUARIO&show_icons=true&include_all_commits=true&count_private=true&bg_color=30,FFF,D6DAFF&border_color=FFF&text_color=000&theme=jolly)
 ```
 
 <h3 align="left">Ocultar o título GitHub Stats</h3>
@@ -124,7 +124,7 @@ Basta adicionar `&hide_title=true` para ocultar o título:
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=elidianaandrade&show_icons=true&include_all_commits=true&count_private=true&bg_color=30,FFF,D6DAFF&border_color=FFF&text_color=000&theme=jolly&hide_title=true)
 
 ```
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=elidianaandrade&show_icons=true&include_all_commits=true&count_private=true&bg_color=30,FFF,D6DAFF&border_color=FFF&text_color=000&theme=jolly&hide_title=true)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=SEUNOMEDEUSUARIO&show_icons=true&include_all_commits=true&count_private=true&bg_color=30,FFF,D6DAFF&border_color=FFF&text_color=000&theme=jolly&hide_title=true)
 ```
 
 <br>
