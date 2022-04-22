@@ -89,7 +89,7 @@ Você pode conferir os parâmetros para personalização em https://shields.io/.
 
 <h3 align="left">Pense no contraste Dark/Light</h3>
 <p align="justify">
-  Ao escolher sua paleta, lembre-se do contraste que as cores adotadas geram nos modos dark / light tendo em vista os diferentes tipos de usuários que vão visitar o seu perfil.
+  Ao escolher sua paleta, lembre-se do contraste que as cores adotadas geram nos modos dark / light tendo em vista os diferentes tipos de usuários que vão visitar o seu perfil. Outro ponto também é o fundo da imagem, nesse caso deixei transparente para não ficar o fundo branco liso no modo dark.
 </p>
 
 <br>
