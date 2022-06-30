@@ -1,6 +1,6 @@
 <div id="top" align="center">
   <a href="https://github.com/elidianaandrade">
-    <img width="100%" alt="Capa do Artigo Destrave seu primeiro Desafio de Código" src="">
+    <img width="100%" alt="Capa do Artigo Destrave seu primeiro Desafio de Código" src="https://github.com/elidianaandrade/blog/blob/main/media/covers/capa-artigo-desafio-de-codigo.png?raw=true">
   </a>
 </div>
 
@@ -21,7 +21,7 @@ Para quem está começando no mundo da programação, sobretudo os que estão em
 
 Figura 01 – Interface da área de desafios de código da Digital Innovation One – DIO.
 
-<img align="center" width="100%" alt="Figura 01 – Interface da área de desafios de código da Digital Innovation One – DIO." src="">
+<img align="center" width="100%" alt="Figura 01 – Interface da área de desafios de código da Digital Innovation One – DIO." src="https://github.com/elidianaandrade/blog/blob/main/media/post-02/interface-desafio-de-codigo-dio.PNG?raw=true">
 
 Fonte: Digital Innovation One. Elaborado pelo autor.
 
@@ -30,7 +30,7 @@ Ao executar os testes clicando no botão azul, existem três possibilidades de r
 
 Figura 02 – Tipos de retorno após a execução dos testes do desafio de código.
 
-<img align="center" width="100%" alt="Figura 02 – Tipos de retorno após a execução dos testes do desafio de código." src="">
+<img align="center" width="100%" alt="Figura 02 – Tipos de retorno após a execução dos testes do desafio de código." src="https://github.com/elidianaandrade/blog/blob/main/media/post-02/retornos-desafio-codigo.png?raw=true">
 
 Fonte: Digital Innovation One. Elaborado pelo autor.
 
@@ -71,7 +71,7 @@ A vantagem de resolver os desafios de código na plataforma, é que você pode t
 
 Figura 03 – Teste aberto com resultado incorreto no desafio de código “Quadrado e ao Cubo”.
 
-<img align="center" width="100%" alt="Figura 03 – Teste aberto com resultado incorreto no desafio de código “Quadrado e ao Cubo”." src="">
+<img align="center" width="100%" alt="Figura 03 – Teste aberto com resultado incorreto no desafio de código “Quadrado e ao Cubo”." src="https://github.com/elidianaandrade/blog/blob/main/media/post-02/teste-aberto-desafio-codigo.png?raw=true">
 
 Fonte: Digital Innovation One. Elaborado pelo autor.
 
