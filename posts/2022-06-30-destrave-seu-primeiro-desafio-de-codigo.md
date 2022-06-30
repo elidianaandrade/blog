@@ -26,13 +26,14 @@ Figura 01 – Interface da área de desafios de código da Digital Innovation On
 Fonte: Digital Innovation One. Elaborado pelo autor.
 
 Os desafios de código geralmente são compostos por um enunciado que descreve o desafio proposto e a entrada e saída esperada, que podem ser lidos na barra lateral esquerda da interface, ao passo que o código pode ser escrito, salvo, e executado ao lado direito, que contém também um exemplo de código que pode ou não ser utilizado na sua resolução. Na parte inferior dessa área onde o código deve ser escrito, possui um conjunto de testes que ele será submetido, sendo alguns abertos, onde você pode verificar o tipo de saída que ele retorna de acordo com a entrada definida, e outros fechados, que não possibilitam essa visualização (Figura 01). Além disso, na barra lateral consta um menu com ícones que levam a abas referentes a descrição do desafio (ícone de livro), instruções para a resolução (ícone “i”) e dúvidas (ícone com a interrogação) que conta também com um tour interativo. <br>
-Ao executar os testes clicando no botão azul, existem três possibilidades de retorno, como pode ser observado na Figura 02, sendo o primeiro caso referente a uma implementação que foi submetida com sucesso aos testes abertos; o segundo é retornado quando há um erro na execução do seu código; e o terceiro ocorre quando há um erro de sintaxe, devido a escrita incorreta da estrutura do código indo de desencontro às regras sintáticas da linguagem adotada.
 
 Figura 02 – Tipos de retorno após a execução dos testes do desafio de código.
 
 <img align="center" width="100%" alt="Figura 02 – Tipos de retorno após a execução dos testes do desafio de código." src="https://github.com/elidianaandrade/blog/blob/main/media/post-02/retornos-desafio-codigo.png?raw=true">
 
 Fonte: Digital Innovation One. Elaborado pelo autor.
+
+Ao executar os testes clicando no botão azul, existem três possibilidades de retorno, como pode ser observado na Figura 02, sendo o primeiro caso referente a uma implementação que foi submetida com sucesso aos testes abertos; o segundo é retornado quando há um erro na execução do seu código; e o terceiro ocorre quando há um erro de sintaxe, devido a escrita incorreta da estrutura do código indo de desencontro às regras sintáticas da linguagem adotada.
 
 Agora que você já sabe como funciona a interface de resolução dos desafios, a seguir separei algumas dicas de etapas que decorri para começar a solucionar os desafios de maneira mais fluida, e que me ajudaram a não estagnar ao me deparar com novos problemas. Sob esse aspecto, será abordado desde os conhecimentos necessários para se resolver um desafio, assim como identificar as dificuldades que bloqueiam seu progresso na resolução e formas de buscar ajuda e aprender novas abordagens a partir da análise de diferentes resoluções. 
 
