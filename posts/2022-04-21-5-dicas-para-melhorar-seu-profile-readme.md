@@ -1,6 +1,6 @@
 <div id="top" align="center">
   <a href="https://github.com/elidianaandrade">
-    <img width="100%" alt="README GitHub" src="https://github.com/elidianaandrade/blog/blob/main/media/ea-github-dark-light.gif?raw=true">
+    <img width="100%" alt="Capa Artigo 5 Dicas para melhorar o README do seu perfil no GitHub" src="https://github.com/elidianaandrade/blog/blob/main/media/ea-github-dark-light.gif?raw=true">
   </a>
 </div>
 
@@ -89,7 +89,7 @@ Você pode conferir os parâmetros para personalização em https://shields.io/.
 
 <h3 align="left">Pense no contraste Dark/Light</h3>
 <p align="justify">
-  Ao escolher sua paleta, lembre-se do contraste que as cores adotadas geram nos modos dark / light tendo em vista os diferentes tipos de usuários que vão visitar o seu perfil. Outro ponto também é o fundo da imagem, nesse caso deixei transparente para não ficar o fundo branco liso no modo dark.
+  Ao escolher sua paleta, lembre-se do contraste que as cores adotadas geram nos modos dark / light tendo em vista os diferentes tipos de usuários que vão visitar o seu perfil.
 </p>
 
 <br>
@@ -114,7 +114,7 @@ Basta adicionar `bg_color=angulo,cor1,cor2`, nesse caso utilizei `bg_color=30,FF
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=elidianaandrade&show_icons=true&include_all_commits=true&count_private=true&bg_color=30,FFF,D6DAFF&border_color=FFF&text_color=000&theme=jolly)
 
 ```
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=SEUNOMEDEUSUARIO&show_icons=true&include_all_commits=true&count_private=true&bg_color=30,FFF,D6DAFF&border_color=FFF&text_color=000&theme=jolly)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=elidianaandrade&show_icons=true&include_all_commits=true&count_private=true&bg_color=30,FFF,D6DAFF&border_color=FFF&text_color=000&theme=jolly)
 ```
 
 <h3 align="left">Ocultar o título GitHub Stats</h3>
@@ -124,7 +124,7 @@ Basta adicionar `&hide_title=true` para ocultar o título:
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=elidianaandrade&show_icons=true&include_all_commits=true&count_private=true&bg_color=30,FFF,D6DAFF&border_color=FFF&text_color=000&theme=jolly&hide_title=true)
 
 ```
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=SEUNOMEDEUSUARIO&show_icons=true&include_all_commits=true&count_private=true&bg_color=30,FFF,D6DAFF&border_color=FFF&text_color=000&theme=jolly&hide_title=true)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=elidianaandrade&show_icons=true&include_all_commits=true&count_private=true&bg_color=30,FFF,D6DAFF&border_color=FFF&text_color=000&theme=jolly&hide_title=true)
 ```
 
 <br>
