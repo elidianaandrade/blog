@@ -1,6 +1,6 @@
 <div id="top" align="center">
   <a href="https://github.com/elidianaandrade">
-    <img width="100%" alt="Capa Artigo 5 Dicas para melhorar o README do seu perfil no GitHub" src="https://github.com/elidianaandrade/blog/blob/main/media/ea-github-dark-light.gif?raw=true">
+    <img width="100%" alt="Capa Artigo 5 Dicas para melhorar o README do seu perfil no GitHub" src="https://github.com/elidianaandrade/blog/blob/main/media/covers/capa-artigo-profile-readme.gif?raw=true">
   </a>
 </div>
 
@@ -94,7 +94,7 @@ Você pode conferir os parâmetros para personalização em https://shields.io/.
 
 <br>
 
-<img align="left" width="48%" alt="README GitHub" src="https://github.com/elidianaandrade/blog/blob/main/media/ea-github-dark.png?raw=true"><img width="48%" alt="README GitHub" src="https://github.com/elidianaandrade/blog/blob/main/media/ea-github-light.png?raw=true">
+<img align="left" width="48%" alt="Profile README GitHub Dark" src="https://github.com/elidianaandrade/blog/blob/main/media/post-01/ea-github-dark.png?raw=true"><img width="48%" alt="Profile README GitHub Light" src="https://github.com/elidianaandrade/blog/blob/main/media/post-01/ea-github-light.png?raw=true">
 
 
 <br>
