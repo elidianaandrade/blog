@@ -94,8 +94,7 @@ Você pode conferir os parâmetros para personalização em https://shields.io/.
 
 <br>
 
-<img align="left" width="48%" alt="Profile README GitHub Dark" src="https://github.com/elidianaandrade/blog/blob/main/media/post-01/ea-github-dark.png?raw=true"><img width="48%" alt="Profile README GitHub Light" src="https://github.com/elidianaandrade/blog/blob/main/media/post-01/ea-github-light.png?raw=true">
-
+![Profile Github Dark and Light](https://user-images.githubusercontent.com/97471199/176912546-f6703719-250b-4c91-b2be-bdf22d144ea5.png)
 
 <br>
 
