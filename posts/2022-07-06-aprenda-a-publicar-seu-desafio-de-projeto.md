@@ -1,6 +1,6 @@
 <div id="top" align="center">
   <a href="https://github.com/elidianaandrade">
-    <img width="100%" alt="Capa do Artigo Aprenda a publicar seu Desafio de Projeto" src="">
+    <img width="100%" alt="Capa do Artigo Aprenda a publicar seu Desafio de Projeto" src="https://github.com/elidianaandrade/blog/blob/main/media/covers/cover-03-aprenda-publicar-desafio-de-projeto.png?raw=true">
   </a>
 </div>
 
@@ -32,14 +32,14 @@ Antes de ensinar a publicar o projeto, vou abordar como criar um repositório co
 **PASSO 01 - Crie um novo repositório**<br>
  Na página inicial do Github, você pode fazer isso de duas formas: clicando no botão verde “New” ao lado esquerdo da tela; ou através menu suspenso ao lado direito da barra superior, clicando no “+”, e em seguida “New repository” (Figura 01).<br>
 Figura 01 – Interface inicial do Github.
- 
+<img align="center" alt="Interface inicial do Github." src="https://github.com/elidianaandrade/blog/blob/main/media/post-03/fig01-new-repository.png?raw=true">
 Fonte: Github. Elaborado pelo autor.
 
 **PASSO 02 - Nomeie o repositório como <user>.github.io** 
 Ao nomear seu repositório escreva seu nome de usuário e acrescente “.github.io” e marque a opção “Public” e clique em “Create repository“, como pode ser observado no exemplo da Figura 02, onde meu usuário é elidianaandrade, então o repositório foi nomeado como “elidianaandrade.github.io”.<br>
 Obs.: Caso seu nome de usuário contenha letras maiúsculas, digite-o com letras minúsculas. <br>
 Figura 02 – Exemplo criando e nomeando um repositório público no Github
- 
+<img align="center" alt="Exemplo criando e nomeando um repositório público no Github" src="https://github.com/elidianaandrade/blog/blob/main/media/post-03/fig02-nomeando-o-repositorio.png?raw=true">
 Fonte: Github. Elaborado pelo autor.
 <br>
 Nota: Se você nomear apenas com seu nome de usuário, criará o profile README, que abordo na postagem 5 dicas para melhorar seu profile README do GitHub.
@@ -48,7 +48,7 @@ Nota: Se você nomear apenas com seu nome de usuário, criará o profile README,
  Após criar o seu repositório, você poderá acessar sua página digitando na barra de endereço do seu navegador https://seunomedeusuario.github.io/ (substituindo “seunomedeusuario” pelo seu, obviamente). <br>
  Num primeiro momento, ocorrerá o erro 404, pois seu repositório estará vazio, mas você pode resolver isso adicionando um index.md ou index.html no seu repositório. Caso possua um index.html, ele será utilizado ao invés do index.md, mas se não existir nenhum dos dois, será utilizado o README.md.<br>
 Figura 03 – Github Pages Settings seleção de branch ou tema
- 
+<img align="center" alt="Exemplo criando e nomeando um repositório público no Github" src="https://github.com/elidianaandrade/blog/blob/main/media/post-03/fig03-github-pages-branch-themes.png?raw=true">
 Fonte: Github. Elaborado pelo autor.
 <br>
  Você pode utilizar esse repositório para criar o seu portfólio, adicionando os arquivos na branch main (ou a que você selecionar indo em “Settings”, e selecionando na aba lateral “Pages”, como pode ser observado na Figura 03), ou escolher um tema em “Choose a theme”, para que seja exibido na sua página. Mas como o objetivo deste artigo é ensinar a publicar os Desafios de Projeto, vamos para o próximo tópico onde trataremos disso.
@@ -57,7 +57,7 @@ Fonte: Github. Elaborado pelo autor.
  Para exemplificar, vou utilizar o repositório do meu projeto referente ao desafio “Recriando a Interface do Netflix”, cujo qual fiz uma nova versão e nomeei de “ArchStil”. Como abordado anteriormente, seu repositório precisa ter um arquivo index.html, que irá corresponder ao conteúdo exibido na página.
 Obs.: Caso ainda não saiba como subir seu repositório local para o Github, assista o curso “Introdução ao Git e ao GitHub” com o instrutor Otávio Reis, disponível aqui na plataforma da DIO.
 Figura 04 – GIF Publicando repositório com Github Pages 
- 
+<img align="center" alt="Exemplo criando e nomeando um repositório público no Github" src="https://github.com/elidianaandrade/blog/blob/main/media/post-03/fig04-github-pages-archstil-gif.gif?raw=true">
 Fonte: Github. Elaborado pelo autor.
 
  Como pode ser observado no GIF (Figura 04), se resume em 4 passos:<br>
@@ -74,7 +74,7 @@ https://elidianaandrade.github.io/archstil/assets/img/archstil-logo.png
  O primeiro passo é se cadastrar no Netlify, você pode fazer isso acessando o link < https://app.netlify.com/signup >. Você pode se inscrever utilizando sua conta do Github, seu e-mail, ou com outra das opções disponíveis.
  Cadastro realizado, na página inicial selecione “Sites” no menu superior, em seguida clique em “Add new site”, e selecione “Import an existing project from a Git repository", como no GIF abaixo (Figura 05):<br>
 Figura 05 – GIF Publicando repositório com Netlify
- 
+<img align="center" alt="Exemplo criando e nomeando um repositório público no Github" src="https://github.com/elidianaandrade/blog/blob/main/media/post-03/fig05-netlify.png?raw=true">
 Em seguida, basta seguir os passos descritos no site, que basicamente se resumem em: <br>
 **PASSO 01** – Conecte-se ao provedor Git (nesse caso, o Github);<br>
 **PASSO 02** – Selecione o repositório do seu desafio;<br>
@@ -83,8 +83,8 @@ Em seguida, basta seguir os passos descritos no site, que basicamente se resumem
 
 ## 4. Outras opções de plataformas para hospedagem
  Além do Netlify, você pode contar com outras opções como o Heroku, Vercel, etc. O processo é basicamente o mesmo, basta se cadastrar, criar um projeto e conectar com seu repositório.<br>
-•	Heroku < https://www.heroku.com/ >
-•	Vercel < https://vercel.com/>
+- Heroku < https://www.heroku.com/ >
+- Vercel < https://vercel.com/>
 
 ## 5. Tratando possíveis erros 
   Uma dúvida muito recorrente nos fóruns se tratando do desafio “Recriando a Interface do Netflix”, é o motivo pelo qual o background adicionando no CSS não está sendo exibido após publicar no Github Pages. Para resolver isso, você pode utilizar o caminho relativo, por exemplo no meu projeto a imagem do background (nesse caso, cover-classic-coliseum-italy.jpg) está dentro da pasta assets > img > covers, então fiz da seguinte forma:<br>
@@ -97,20 +97,20 @@ url('../img/covers/cover-classic-coliseum-italy.jpg');
  Vale ressaltar que caso queira trabalhar com Github Pages, lembre-se que deve se tratar de um projeto básico feito com HTML, CSS e JavaScript. Caso contrário, você pode utilizar uma das outras plataformas indicadas, lembrando sempre de consultar a documentação para verificar os limites e limitações que estão sujeitas, a fim de adotar a que melhor se adequa ao seu projeto. <br>
 
 ## Referências
-GITHUB Docs. Creating a GitHub Pages site. Disponível em: < https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site >. Acesso em: 01 jul. 2022.
-GITHUB Docs. About GitHub Pages. Disponível em: < https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages >. Acesso em: 01 jul. 2022.
-NETLIFY Docs. Create deploys. Disponível em: < https://docs.netlify.com/site-deploys/create-deploys/ >. Acesso em: 06 jul. 2022.
+GITHUB Docs. Creating a GitHub Pages site. Disponível em: < https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site >. Acesso em: 01 jul. 2022.<br>
+GITHUB Docs. About GitHub Pages. Disponível em: < https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages >. Acesso em: 01 jul. 2022.<br>
+NETLIFY Docs. Create deploys. Disponível em: < https://docs.netlify.com/site-deploys/create-deploys/ >. Acesso em: 05 jul. 2022.<br>
 
 ## Páginas e repositórios de alguns dos Desafios de Projeto que realizei
-Recriando a Interface do Netflix
-Repositório: < https://github.com/elidianaandrade/archstil >
-Página: < https://archstil.netlify.app/ >
-Recriando a página inicial do Instagram
-Repositório: < https://github.com/elidianaandrade/dio-desafio-instagram >
-Página: < https://dio-desafio-instagram.netlify.app/ >
-Progressive Web Application com React para mapear os dados do COVID19 pelo mundo
-Repositório: < https://github.com/elidianaandrade/dio-desafio-covid19 >
-Página: < https://dio-desafio-covid19.netlify.app/ >
+**Recriando a Interface do Netflix**<br>
+Repositório: < https://github.com/elidianaandrade/archstil ><br>
+Página: < https://archstil.netlify.app/ ><br>
+**Recriando a página inicial do Instagram**<br>
+Repositório: < https://github.com/elidianaandrade/dio-desafio-instagram ><br>
+Página: < https://dio-desafio-instagram.netlify.app/ ><br>
+**Progressive Web Application com React para mapear os dados do COVID19 pelo mundo**<br>
+Repositório: < https://github.com/elidianaandrade/dio-desafio-covid19 ><br>
+Página: < https://dio-desafio-covid19.netlify.app/ ><br>
 
 <br>
 
