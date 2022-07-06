@@ -75,6 +75,8 @@ https://elidianaandrade.github.io/archstil/assets/img/archstil-logo.png
  Cadastro realizado, na página inicial selecione “Sites” no menu superior, em seguida clique em “Add new site”, e selecione “Import an existing project from a Git repository", como no GIF abaixo (Figura 05):<br>
 Figura 05 – GIF Publicando repositório com Netlify
 <img align="center" alt="Exemplo criando e nomeando um repositório público no Github" src="https://github.com/elidianaandrade/blog/blob/main/media/post-03/fig05-netlify.png?raw=true">
+ Fonte: Netlify. Elaborado pelo autor.
+
 Em seguida, basta seguir os passos descritos no site, que basicamente se resumem em: <br>
 **PASSO 01** – Conecte-se ao provedor Git (nesse caso, o Github);<br>
 **PASSO 02** – Selecione o repositório do seu desafio;<br>
@@ -119,5 +121,3 @@ Página: < https://dio-desafio-covid19.netlify.app/ ><br>
     <img alt="Up" height="25" src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/angle-up.svg">
   </a>
 </div>
-
-
