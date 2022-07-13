@@ -248,11 +248,11 @@ Confira também outras propriedades como .align-self, .flex-fill, .flex-grow-, e
 
 ## Referências
 
-BOOTSTRAP Blog. **Bootstrap 5 alpha!**. 2020. Disponível em: < [https://blog.getbootstrap.com/2020/06/16/bootstrap-5-alpha/](https://blog.getbootstrap.com/2020/06/16/bootstrap-5-alpha/) >. Acesso em 12/07/2022.
+BOOTSTRAP Blog. **Bootstrap 5 alpha!**. 2020. Disponível em: < [https://blog.getbootstrap.com/2020/06/16/bootstrap-5-alpha/](https://blog.getbootstrap.com/2020/06/16/bootstrap-5-alpha/) >.
 
-BOOTSTRAP Blog. **Bootstrap 5.2.0 beta**. 2022. Disponível em: < [https://blog.getbootstrap.com/2022/05/13/bootstrap-5-2-0-beta/](https://blog.getbootstrap.com/2022/05/13/bootstrap-5-2-0-beta/) >. Acesso em 12/07/2022.
+BOOTSTRAP Blog. **Bootstrap 5.2.0 beta**. 2022. Disponível em: < [https://blog.getbootstrap.com/2022/05/13/bootstrap-5-2-0-beta/](https://blog.getbootstrap.com/2022/05/13/bootstrap-5-2-0-beta/) >.
 
-BOOSTRAP v5.0 Doc. **Introduction**. Disponível em: < [https://getbootstrap.com/docs/5.0/getting-started/introduction/](https://getbootstrap.com/docs/5.0/getting-started/introduction/) >. Acesso em 12/07/2022.
+BOOSTRAP v5.0 Doc. **Introduction**. Disponível em: < [https://getbootstrap.com/docs/5.0/getting-started/introduction/](https://getbootstrap.com/docs/5.0/getting-started/introduction/) >.
 <br>
 
 <div align="right">
