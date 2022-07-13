@@ -1,6 +1,6 @@
 <div id="top" align="center">
   <a href="https://github.com/elidianaandrade">
-    <img width="100%" alt="Capa do Artigo Guia Rápido para utilizar o Bootstrap 5" src="">
+    <img width="100%" alt="Capa do Artigo Guia Rápido para utilizar o Bootstrap 5" src="https://github.com/elidianaandrade/blog/blob/main/media/covers/cover-04-guia-bootstrap5.png?raw=true">
   </a>
 </div>
 
