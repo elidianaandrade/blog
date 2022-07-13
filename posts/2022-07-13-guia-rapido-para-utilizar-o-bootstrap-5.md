@@ -20,7 +20,7 @@ O Bootstrap é um framework para front-end que conta com diversas classes CSS pa
 
 ## 1. Introdução
 
- A versão 5 do Boostrap foi lançada há 2 anos e dentre as diferenças em relação a anterior está o uso o do JavaScript puro no lugar do jQuery (veja mais em “****[Bootstrap 5 alpha!](https://blog.getbootstrap.com/2020/06/16/bootstrap-5-alpha/)****” no blog do Bootstrap). Sob esse aspecto, para quem está começando, caso não se atente, pode acontecer de tentar utilizar uma versão antiga com a nova importada e ocorrer algum erro, tendo em vista que é comum que nos mecanismos de pesquisa a página da versão 4 ainda apareça em primeiro lugar. 
+ A versão 5 do Boostrap foi lançada há 2 anos e dentre as diferenças em relação a anterior está o uso do JavaScript puro no lugar do jQuery (veja mais em “****[Bootstrap 5 alpha!](https://blog.getbootstrap.com/2020/06/16/bootstrap-5-alpha/)****” no blog do Bootstrap). Sob esse aspecto, para quem está começando, caso não se atente, pode acontecer de tentar utilizar uma versão antiga com a nova importada e ocorrer algum erro, tendo em vista que é comum que nos mecanismos de pesquisa a página da versão 4 ainda apareça em primeiro lugar. 
 
   Atualmente, temos a versão beta 5.2 do Bootstrap, que trouxe algumas novidades como alguns ajustes suaves no design, novas variáveis CSS para a construção modo dark, etc. Você pode conferir mais sobre a versão beta 5.2 acessando ****[Bootstrap 5.2.0 beta](https://blog.getbootstrap.com/2022/05/13/bootstrap-5-2-0-beta/)**** no blog do Boostrap. Contudo, pensando na estabilidade, neste artigo, será utilizada a documentação referente a versão 5.0. 
 
