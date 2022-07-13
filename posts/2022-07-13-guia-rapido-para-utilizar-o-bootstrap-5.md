@@ -56,7 +56,7 @@ yarn add bootstrap
 
 ## 2. Ícones
 
- Para adicionar os ícones do Bootstrap, você tanto pode baixá-los no formato SVG e adicionar no seu diretório**,** quanto como web font (assim como o Font Awesome) ou incorporando o SVG no seu arquivo HTML.
+ Para adicionar os ícones do Bootstrap, você tanto pode baixá-los no formato SVG e adicionar no seu diretório, quanto como web font (assim como o Font Awesome) ou incorporando o SVG no seu arquivo HTML.
 
 [LINK DA DOC.] **Ícones**: < [https://icons.getbootstrap.com/](https://icons.getbootstrap.com/) >
 
