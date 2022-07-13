@@ -6,7 +6,7 @@
 
 <br>
 
- Hoje eu trouxe um guia rápido para utilizar o Boostrap 5, sintetizando as principais ferramentas com diversos links para acesso na documentação, mais especificamente da sua versão 5, a fim de facilitar a busca e compreensão básica acerca do seu uso.
+ Hoje eu trouxe um guia rápido para utilizar o Boostrap, sintetizando as principais ferramentas com diversos links para acesso na documentação, mais especificamente da sua versão 5, a fim de facilitar a busca e compreensão básica acerca do seu uso.
 
 <br>
 
