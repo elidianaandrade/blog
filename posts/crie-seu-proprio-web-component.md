@@ -6,7 +6,7 @@ No artigo de hoje resolvi sintetizar alguns dos conceitos que estou estudando na
 
 ### Resumo
 
-&#x20;Os Web Components consistem em elementos customizados, reutilizáveis e independentes, compostos por um conjunto de tecnologias que são agrupadas numa tag HTML personalizada. Sob esse aspecto, a adoção de componentes traz como vantagens a redução da repetição de códigos,  facilidade de manutenção e escalabilidade, além melhorar a performance. Nesse sentido, o presente artigo trata acerca do tema de maneira prática e teórica através da criação de um componente.
+&#x20;Os Web Components consistem em elementos customizados, reutilizáveis e independentes, compostos por um conjunto de tecnologias que são agrupadas numa tag HTML personalizada. Sob esse aspecto, a adoção de componentes traz como vantagens a redução da repetição de códigos,  facilidade de manutenção e escalabilidade, além melhorar a performance. Nesse sentido, o presente artigo trata acerca do tema de maneira teórica e prática através da criação de um componente.
 
 **Palavras-chave:** Web Componentes, JavaScript, Shadow DOM.
 
@@ -20,15 +20,21 @@ No artigo de hoje resolvi sintetizar alguns dos conceitos que estou estudando na
 
 ### O que é um Web Component?
 
-É um conjunto de tecnologias que possibilita criar elementos customizáveis independentes que podem ser reutilizados na aplicação web.
+É um conjunto de tecnologias que possibilita criar elementos customizáveis independentes que podem ser reutilizados na aplicação web. Dentre as tecnologias que compõem um Web Componente, temos:
 
-**Custom elements:** Elementos personalizados que possibiltam ;
+**Custom elements:** Elementos personalizados que possibilitam a criação de uma tag HTML personalizada que agrupa propriedades e métodos ;
 
-**Shadow DOM:** Árvore "sombra/fantasma" anexada ao DOM (Document Object Model), renderizada separadamente;
+**Shadow DOM:** Árvore "fantasma" anexada ao DOM (Document Object Model), renderizada separadamente;
 
 **HTML templates:**&#x20;
 
-&#x20; O uso de componentes possibilita um código mais limpo, pois evita a repetição d
+&#x20; Na imagem a seguir, podemos observar que dentro do **Custom Element** "app-card" temos uma subárvore #shadow-root que contém a estrutura HTM do componente e a tag style que agrupa a estilização.
+
+Figura 01 – Inspetor do componente de um card no navegador Firefox.
+
+<figure><img src="../.gitbook/assets/figura-01-estrutura-component.jpg" alt=""><figcaption></figcaption></figure>
+
+Fonte: Elaborado pelo autor.
 
 ### Como Identificar um Componente?
 
@@ -38,37 +44,23 @@ No artigo de hoje resolvi sintetizar alguns dos conceitos que estou estudando na
 
 Trazendo para o contexto Web, você já deve ter observado ao visitar alguma página que um conjunto de elementos se repetem numa determinada estrutura. Como por exemplo, um cabeçalho contendo uma logo, menu e um botão. Mas um componente não precisa necessariamente estar presente em todas as páginas, basta que tenha a necessidade de reutilizá-lo. Podemos observar, por exemplo, na aba de artigos da Digital Innovation One, sempre que você abre um artigo, seja ele qual for, a estrutura abaixo pode ser visualizada:
 
-Figura 01 – Interface da página de leitura de artigos da DIO.
+Figura 02 – Interface da página de leitura de artigos da DIO.
 
-<figure><img src="../.gitbook/assets/figura-01.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/figura-02-pagina-artigos-dio.jpg" alt=""><figcaption></figcaption></figure>
 
 Fonte: Digital Innovation One. Elaborado pelo autor.
 
-Além do **cabeçalho**, que se repete em toda a plataforma, podemos observar outros componentes que são comuns a essa área de artigos (Figura 02). Logo abaixo, na direita, temos uma **área para votação** com dois botões e um contador. E em seguida, um **menu de compartilhamento**. Sob esse aspecto, você concorda que o menu de compartilhamento não depende que a área para votação faça parte dele para que exerça a sua função? Ao contrário do botão do LinkedIn por exemplo, já que o objetivo deste componente é ter um conjunto de elementos que possibilitem compartilhar o conteúdo. Com isso, é coerente que a área de votos e o menu estejam próximos, mas não significa que um dependa do outro para fazer sentido isoladamente.
+Além do **cabeçalho**, que se repete em toda a plataforma, podemos observar outros componentes que são comuns a essa área de artigos (Figura 02). Logo abaixo, na direita, temos uma **área para votação** com dois botões e um contador. E em seguida, um **menu de compartilhamento**. Sob esse aspecto, o menu de compartilhamento não depende que a área para votação faça parte dele para que exerça a sua função. Ao contrário do botão do LinkedIn por exemplo, já que o objetivo deste componente é ter um conjunto de elementos que possibilitem compartilhar o conteúdo. Com isso, é coerente que a área de votos e o menu estejam próximos, mas não significa que um dependa do outro para fazer sentido isoladamente.
 
-Figura 02 – Identificando Componentes na página de leitura de artigos da DIO.
+Figura 03 – Identificando Componentes na página de leitura de artigos da DIO.
 
-<figure><img src="../.gitbook/assets/figura-02-dio-artigos-componentes.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/figura-03-dio-artigos-componentes.gif" alt=""><figcaption></figcaption></figure>
 
 Fonte: Digital Innovation One. Elaborado pelo autor.
 
 Além disso, os próprios botões presentes no componente do menu, podem ser baseados no componente botão, por exemplo, contendo características que estão presentes em todos os botões (um círculo com um ícone branco centralizado).
 
-&#x20;E é com essa mentalidade que podemos ir identificando outros componentes e momento de utilizá-los. Fazendo isso se reduz a repetição de código, facilita a manutenção e escalabilidade, além de melhorar a performance.
-
-### O que é um Web Component?
-
-É um conjunto de tecnologias que possibilita criar elementos customizáveis independentes que podem ser reutilizados na aplicação web.
-
-&#x20;Possibilita um código mais limpo, pois evita a repetição d
-
-**Custom Elements:** Elementos personalizados;
-
-**Shadow DOM:** Árvore "fantasma" anexada ao DOM (Document Object Model), renderizada separadamente;
-
-**HTML Templates:**
-
-A partir disso, a seguir vamos ver de forma prática como criar um componente, trazendo como exemplo um card.
+&#x20;E é com essa mentalidade que podemos ir identificando outros componentes e momento de utilizá-los. Fazendo isso se reduz a repetição de código, e otimiza o trabalho do desenvolvedor, pois facilita a manutenção possibilitando a alteração automática do modelo de todas as "réplicas" de um mesmo componente, além de melhorar a performance e escalabilidade.
 
 ### Passos para Criar um Componente
 
@@ -76,7 +68,7 @@ Como ambiente de desenvolvimento, podemos utilizar o Visual Studio Code e visual
 
 Caso queira utilizar o Visual Studio Code, crie um arquivo .html e outro .js. No arquivo HTML escreva o comando **html:5** para que ele monte automaticamente a estrutura, e dentro da tag body insira a tag script apontando para o arquivo JavaScript que você criou (Figura 03).
 
-Figura 03 – Arquivo index.html no Visual Studio Code&#x20;
+Figura 04 – Arquivo index.html no Visual Studio Code&#x20;
 
 <figure><img src="../.gitbook/assets/figura-04-vs-code.JPG" alt=""><figcaption></figcaption></figure>
 
@@ -86,9 +78,9 @@ Fonte: Visual Studio Code. Elaborado pelo autor.
 
 Com o editor de código aberto, você vai visualizar uma interface similar a da imagem abaixo:
 
-Figura 04 – Editor de código (Pen) CodePen.
+Figura 05 – Editor de código (Pen) CodePen.
 
-<figure><img src="../.gitbook/assets/figura-03-codepen.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/figura-05-codepen.jpg" alt=""><figcaption></figcaption></figure>
 
 Fonte: CodePen. Elaborado pelo autor.
 
@@ -103,7 +95,7 @@ Ambiente pronto, agora vamos codar!
 Voltando para o nosso componente Card, vamos criar uma classe e chamá-la de CardComponent. Você pode nomear da forma que preferir, desde que seja coerente e mantenha o padrão **Pascal Case**, que consiste em escrever a primeira letra das palavras em maiúsculo.
 
 ```javascript
-class CardComponent extends HTMLElement { }
+class CardComponent extends HTMLElement {}
 ```
 
 Vamos dizer também que a classe que criamos "**extends**" de HTMLElement, o que significa que desejamos que ela seja derivada/filha da **superclasse** (classe base/pai) **** HTMLElement, e com isso herde os métodos e características dessa interface que representa qualquer elemento HTML.
@@ -128,24 +120,55 @@ class CardComponent extends HTMLElement {
 
 "**closed**" -> se deseja que seja acessado apenas pelo JavaScript interno.&#x20;
 
+<pre class="language-javascript"><code class="lang-javascript"><strong>class CardComponent extends HTMLElement {
+</strong>  constructor() {
+        super();
+        const shadow = this.attachShadow({mode: "open"});
+  }
+}</code></pre>
+
+#### 03. Defina o Custom Element
+
+&#x20;Com o customElements chamamos o método .define() para definir nosso elemento customizado. Ele recebe como primeiro parâmetro o seletor, que é o nome da nossa tag HTML, que deverá ser separado por hífen (para diferenciar das tags padrão que contém uma letra/palavra, por exemplo "p" ou "title"). Em seguida, passamos o construtor, nesse caso a classe CardComponent que contém o constructor do nosso elemento.
+
 ```javascript
 class CardComponent extends HTMLElement {
   constructor() {
         super();
-        const shadowRoot = this.attachShadow({mode: "open"});
+        const shadow = this.attachShadow({mode: "open"});
   }
 }
+
+customElements.define('card-component', CardComponent)
 ```
 
-#### 03. Insira os métodos build() e styles()
+A partir disso já podemos ter uma prévia do nosso componente chamando nosso seletor `<card-component></card-component>` no HTML, e chamando a nossa constante shadow com a propriedade **`.innerHTML`** para retornar a string "Hello World!", conforme no exemplo abaixo:
 
-Para construir e estilizar o nosso componente vamos inserir os seguintes métodos:
+```javascript
+class CardComponent extends HTMLElement {
+  constructor() {
+        super();
+        const shadow = this.attachShadow({mode: "open"});
+        shadow.innerHTML = "Hello World!";
+  }
+}
 
-build ->&#x20;
+customElements.define('card-component', CardComponent)
+```
 
-styles ->&#x20;
+Figura 06 – Editor de código e visualização do componente no CodePen
 
-E vamos adicioná-los dentro do constructor com o método .appendChild(), que criará um "nó" na árvore shadow DOM do componente.&#x20;
+<figure><img src="../.gitbook/assets/figura-06-exemplo" alt=""><figcaption></figcaption></figure>
+
+Fonte: CodePen. Elaborado pelo autor.
+
+&#x20;Com essa base, podemos ir desenvolvendo nosso componente de maneira mais rebuscada.
+
+#### 04. Insira métodos para construção e estilização do componente
+
+Para construir e estilizar o nosso componente vamos criar dois métodos, um para construirmos (`.build()`) a estrutura do nosso componente e outro para estilizá-lo (`.styles()`).
+
+E vamos criar um "nó" na árvore shadow DOM do componente com o método .appendChild() dentro do constructor e a inserção destes métodos.
 
 ```javascript
 class CardComponent extends HTMLElement {
@@ -153,9 +176,9 @@ class CardComponent extends HTMLElement {
   constructor() {
         super();
     
-        const shadowRoot = this.attachShadow({mode: "open"});
-        shadowRoot.appendChild(this.build());
-        shadowRoot.appendChild(this.styles());
+        const shadow = this.attachShadow({mode: "open"});
+        shadow.appendChild(this.build());
+        shadow.appendChild(this.styles());
   }
   
   build(){}
@@ -164,23 +187,18 @@ class CardComponent extends HTMLElement {
  
 }
 
+customElements.define('card-component', CardComponent)
 ```
 
-Dentro do método
+Dentro do&#x20;
 
-#### 05. Defina o Custom Element
 
-Por fim, com o customElements chamamos o método .define() para definir nosso elemento customizado. Ele recebe como primeiro parâmetro o seletor, que é o nome da nossa tag HTML, que deverá ser separado por hífen (para diferenciar das tags padrão que contém uma letra/palavra, por exemplo "p" ou "title"). Em seguida, passamos o construtor, nesse caso a classe CardComponent que contém o constructor do nosso elemento.
-
-```javascript
-customElements.define('app-button', CardComponent)
-```
 
 ### Considerações finais
 
-&#x20;Neste artigo aprendemos que componentes são do que um conjunto de elementos encapsulados numa tag html que podem ser reutilizados. Sob esse aspecto, foi possível acompanhar passos para criar um componente em JavaScript.
+&#x20;Neste artigo aprendemos que componentes são do que um conjunto de elementos encapsulados numa tag html que podem ser reutilizados. Sob esse aspecto, foi possível acompanhar passos para criar um componente em JavaScript. Caso queira ver mais recomendo o curso **Web Components no Front-end**, e as referências MDN Web Docs, além de outros que você pode conferir no tópico Referências e Links Utilitários.
 
-&#x20;Vale também salientar, que é interessante ter essa base para compreender como funciona os Web Components, mas hoje temos frameworks e bibliotecas que nos possibilita criar componentes de forma mais prática.
+&#x20;Por fim, vale salientar que é interessante ter essa base para compreender como funciona os Web Components, mas hoje temos frameworks e bibliotecas que nos possibilita criar componentes de forma mais prática.
 
 ### Referências e Links Utilitários
 
@@ -204,6 +222,6 @@ WEB COMPONENTS. **Introduction**. Disponível em: < [https://www.webcomponents.o
 
 ### Este artigo foi útil para você?
 
-Deixe o comentário e curta e compartilhe para que alcance mais pessoas!\
+Dê um upvote e me conta nos comentários o que você achou 😊💜\
 [\
 ![Artigos](https://camo.githubusercontent.com/3c8a0003fa34ff80151fdfa78c1855bbfaa52c1cd4f95cbc76ef247110a3fbc0/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f56656a612532306d6575732532306f7574726f7325323041727469676f732d3030303f7374796c653d666f722d7468652d6261646765)](https://elidianaandrade.github.io/articles) [![LinkedIn](https://camo.githubusercontent.com/f66fe25e822884bedd0c55acee60415a4feeb4cce985f4461f9af20a4dea2112/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4c696e6b6564496e2d3030303f7374796c653d666f722d7468652d6261646765266c6f676f3d6c696e6b6564696e266c6f676f436f6c6f723d36363130463226636f6c6f723a464646)](https://www.linkedin.com/in/elidianaandrade/) [![Github](https://camo.githubusercontent.com/cf38d1c8dc4e8ed0a3e0a79c6b7172ab70ea2a563d0287f914bef3368b6396f9/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4769746875622d3030303f7374796c653d666f722d7468652d6261646765266c6f676f3d676974687562266c6f676f436f6c6f723d363631304632)](https://github.com/elidianaandrade)
