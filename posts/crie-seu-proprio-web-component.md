@@ -1,3 +1,8 @@
+---
+cover: ../.gitbook/assets/cover-05-crie-seu-proprio-web-component.jpg
+coverY: 0
+---
+
 # Crie Seu Próprio Web Component
 
 Explore os conceitos de Web Components, criando seu próprio componente em JavaScript.
@@ -194,7 +199,7 @@ customElements.define('card-component', CardComponent)
 
 Figura 07 – Estrutura do componente Card.
 
-<figure><img src="../.gitbook/assets/figura-07-estrutura-html-card.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/figura-estrutura-html-card.jpg" alt=""><figcaption></figcaption></figure>
 
 Fonte: Elaborado pelo autor.
 
@@ -427,7 +432,7 @@ A partir disso podemos replicar a mesma estrutura, alterando apenas o conteúdo 
 
 Figura 08 – Card Components no CodePen.
 
-<figure><img src="../.gitbook/assets/figura-08-html-cards.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/figura-html-cards.jpg" alt=""><figcaption></figcaption></figure>
 
 Fonte: CodePen. Elaborado pelo autor.
 
