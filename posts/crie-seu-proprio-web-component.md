@@ -1,88 +1,98 @@
-# 2022-10-21-crie-seu-proprio-web-component
+# Crie Seu Próprio Web Component
 
-Explore os conceitos de Web Components, criando seu próprio componente em JavaScript no CodePen.&#x20;
+Explore os conceitos de Web Components, criando seu próprio componente em JavaScript.
 
-## Crie Seu Próprio Web Component
+No artigo de hoje resolvi sintetizar alguns dos conceitos que estou estudando na Formação Angular aqui na DIO com o instrutor Felipe Aguiar, que são os Web Components no Front-end. Ter essa base é essencial para entendermos o que acontece "por baixo dos panos" quando trabalhamos com componentes.
 
 ### Resumo
 
-&#x20;Os Web Components possuem Com uma estrutura composta pelas Custom Elements, Shadow DOM e HTML templates, possibilitando criar uma tag HTML personalizada que agrupa. Sob esse viés, a adoção de componentes traz como vantagens a redução da repetição de códigos, escalabilidade e facilidade de manutenção além melhorar a performance. Nesse sentido, o presente artigo trata da teoria e prática acerca desses conceitos através da criação de um componente.
+&#x20;Os Web Components consistem em elementos customizados, reutilizáveis e independentes, compostos por um conjunto de tecnologias que são agrupadas numa tag HTML personalizada. Sob esse aspecto, a adoção de componentes traz como vantagens a redução da repetição de códigos,  facilidade de manutenção e escalabilidade, além melhorar a performance. Nesse sentido, o presente artigo trata acerca do tema de maneira prática e teórica através da criação de um componente.
 
 **Palavras-chave:** Web Componentes, JavaScript, Shadow DOM.
-
-
 
 #### Você vai terminar este artigo sabendo:
 
 * O que é um Web Component?
-* Quando utilizar um Componente?
+* Como Identificar um Componente?
 * Passos para Criar um Componente
 * Considerações Finais
 * Referências e Links Utilitários
 
-
-
 ### O que é um Web Component?
 
-É um conjunto
+É um conjunto de tecnologias que possibilita criar elementos customizáveis independentes que podem ser reutilizados na aplicação web.
 
-Possibilita um código mais limpo, pois evita a repetição d
+**Custom elements:** Elementos personalizados que possibiltam ;
 
-#### Estrutura de um Web Component
+**Shadow DOM:** Árvore "sombra/fantasma" anexada ao DOM (Document Object Model), renderizada separadamente;
 
-**Custom elements:** Elementos customizados
+**HTML templates:**&#x20;
 
-**Shadow DOM**
+&#x20; O uso de componentes possibilita um código mais limpo, pois evita a repetição d
 
-**HTML templates**
+### Como Identificar um Componente?
 
-#### Shadow DOM
-
-### Quando utilizar um Componente?
-
-&#x20;Meu primeiro contato prático com o conceito de Componentes foi em Arquitetura e Urbanismo, e em Desenvolvimento Web é basicamente a mesma coisa, então para simplificar vou trazer esse exemplo mais "real" em arquitetura:
+&#x20;Meu primeiro contato prático com Componentes foi em Arquitetura (civil), sobretudo em modelagem 3D, e ao me deparar com esse conceito em Desenvolvimento Web percebi que é basicamente a mesma coisa, então para simplificar vou trazer esse exemplo mais "real":
 
 &#x20;Vamos simular uma maquete eletrônica de edifício residencial com vários apartamentos. Imagine que precisamos modelar as portas de cada um desses apartamentos. Você concorda que seria bem mais fácil criar um único modelo de porta e apenas repeti-lo do que ter que modelar uma por uma? Ao construir esse modelo você está criando um componente! Assim, caso a gente precise alterar o modelo da porta de um apartamento isso irá se repetir automaticamente em todas as portas baseadas neste modelo. Com isso, não teremos o retrabalho de modelar a alteração cada vez que essa porta se repetir, podendo acabar inclusive cometendo o erro de esquecer alguma.
 
-Trazendo para o contexto Web, você já deve ter observado ao visitar alguma página que um conjunto de elementos se repetem numa determinada estrutura. Como por exemplo, um cabeçalho contendo uma logo, menu e um botão. Mas um componente não precisa necessariamente estar presente em todas as páginas, como podemos observar, por exemplo, na aba de artigos da Digital Innovation One.
+Trazendo para o contexto Web, você já deve ter observado ao visitar alguma página que um conjunto de elementos se repetem numa determinada estrutura. Como por exemplo, um cabeçalho contendo uma logo, menu e um botão. Mas um componente não precisa necessariamente estar presente em todas as páginas, basta que tenha a necessidade de reutilizá-lo. Podemos observar, por exemplo, na aba de artigos da Digital Innovation One, sempre que você abre um artigo, seja ele qual for, a estrutura abaixo pode ser visualizada:
 
-Sempre que você abre um artigo, seja ele qual for, a estrutura abaixo pode ser visualizada:
-
-Figura 01 – Interface da área de leitura do artigo. DIO.
+Figura 01 – Interface da página de leitura de artigos da DIO.
 
 <figure><img src="../.gitbook/assets/figura-01.jpg" alt=""><figcaption></figcaption></figure>
 
-Fonte:&#x20;
+Fonte: Digital Innovation One. Elaborado pelo autor.
 
 Além do **cabeçalho**, que se repete em toda a plataforma, podemos observar outros componentes que são comuns a essa área de artigos (Figura 02). Logo abaixo, na direita, temos uma **área para votação** com dois botões e um contador. E em seguida, um **menu de compartilhamento**. Sob esse aspecto, você concorda que o menu de compartilhamento não depende que a área para votação faça parte dele para que exerça a sua função? Ao contrário do botão do LinkedIn por exemplo, já que o objetivo deste componente é ter um conjunto de elementos que possibilitem compartilhar o conteúdo. Com isso, é coerente que a área de votos e o menu estejam próximos, mas não significa que um dependa do outro para fazer sentido isoladamente.
 
-Figura
+Figura 02 – Identificando Componentes na página de leitura de artigos da DIO.
 
 <figure><img src="../.gitbook/assets/figura-02-dio-artigos-componentes.gif" alt=""><figcaption></figcaption></figure>
 
-Fonte:
+Fonte: Digital Innovation One. Elaborado pelo autor.
 
 Além disso, os próprios botões presentes no componente do menu, podem ser baseados no componente botão, por exemplo, contendo características que estão presentes em todos os botões (um círculo com um ícone branco centralizado).
 
 &#x20;E é com essa mentalidade que podemos ir identificando outros componentes e momento de utilizá-los. Fazendo isso se reduz a repetição de código, facilita a manutenção e escalabilidade, além de melhorar a performance.
 
+### O que é um Web Component?
+
+É um conjunto de tecnologias que possibilita criar elementos customizáveis independentes que podem ser reutilizados na aplicação web.
+
+&#x20;Possibilita um código mais limpo, pois evita a repetição d
+
+**Custom Elements:** Elementos personalizados;
+
+**Shadow DOM:** Árvore "fantasma" anexada ao DOM (Document Object Model), renderizada separadamente;
+
+**HTML Templates:**
+
 A partir disso, a seguir vamos ver de forma prática como criar um componente, trazendo como exemplo um card.
 
 ### Passos para Criar um Componente
 
-Como ambiente de desenvolvimento, podemos utilizar o Visual Studio Code e visualizá-lo no navegador, ou editar e visualizar direto no [CodePen](https://codepen.io/) que é uma maneira mais rápida.
+Como ambiente de desenvolvimento, podemos utilizar o Visual Studio Code e visualizá-lo no navegador, ou editar e visualizar direto no [CodePen](https://codepen.io/).
 
-Caso queira utilizar o Visual Studio Code, crie um arquivo .html e outro .js. No arquivo HTML escreva o comando **html:5** para que ele monte automaticamente a estrutura, e dentro da tag body insira a tag script apontando para o arquivo JavaScript que você criou (Figura 04).
+Caso queira utilizar o Visual Studio Code, crie um arquivo .html e outro .js. No arquivo HTML escreva o comando **html:5** para que ele monte automaticamente a estrutura, e dentro da tag body insira a tag script apontando para o arquivo JavaScript que você criou (Figura 03).
+
+Figura 03 – Arquivo index.html no Visual Studio Code&#x20;
 
 <figure><img src="../.gitbook/assets/figura-04-vs-code.JPG" alt=""><figcaption></figcaption></figure>
+
+Fonte: Visual Studio Code. Elaborado pelo autor.
 
 &#x20;Já no CodePen, basta acessar < [https://codepen.io/](https://codepen.io/) > e criar uma conta (caso deseje salvar o seu código), ou ir direto para o editor acessando o link: < [https://codepen.io/pen](https://codepen.io/pen) >.
 
 Com o editor de código aberto, você vai visualizar uma interface similar a da imagem abaixo:
 
+Figura 04 – Editor de código (Pen) CodePen.
+
 <figure><img src="../.gitbook/assets/figura-03-codepen.jpg" alt=""><figcaption></figcaption></figure>
 
-Para mudar a forma de visualização, basta clicar no botão no menu superior ao lado de "Settings" como mostrado na Figura 03. Além disso, você também pode minimizar a aba CSS, clicando no segundo ícone e em seguida "Minimize CSS Editor", já que vamos utilizar apenas a de HTML e JavaScript.
+Fonte: CodePen. Elaborado pelo autor.
+
+Para mudar a forma de visualização, basta clicar no botão no menu superior ao lado de "Settings" como mostrado na Figura 04. Além disso, você também pode minimizar a aba CSS, clicando no segundo ícone e em seguida "Minimize CSS Editor", já que vamos utilizar apenas a de HTML e JavaScript.
 
 Ambiente pronto, agora vamos codar!
 
@@ -110,9 +120,9 @@ class CardComponent extends HTMLElement {
 
 #### 02. Crie uma constante e atribua uma árvore Shadow DOM anexada a Classe
 
-&#x20;Ainda dentro do constructor da nossa classe, vamos criar a constante (neste exemplo chamada shadowRoot) e atribuir "this" (que traz a referência de contexto) e o método .attachShadow() que anexa uma árvore Shadow DOM ao elemento especificado, neste caso a nossa classe.
+&#x20;Ainda dentro do constructor da nossa classe, vamos criar a constante shadowRoot e atribuir "this" (que traz a referência de contexto) e o método .attachShadow() que anexa uma árvore Shadow DOM ao elemento especificado, neste caso a nossa classe.
 
-&#x20; O .attachShadow() receberá como parâmetro  o objeto options, e dentro dele o campo **mode**, que pode receber:
+&#x20; O .attachShadow() receberá como parâmetro o objeto options, e dentro dele o campo **mode**, que pode receber:
 
 &#x20;"**open**" -> caso queira que seja acessado pelo JavaScript fora do nosso componente;
 
@@ -128,6 +138,14 @@ class CardComponent extends HTMLElement {
 ```
 
 #### 03. Insira os métodos build() e styles()
+
+Para construir e estilizar o nosso componente vamos inserir os seguintes métodos:
+
+build ->&#x20;
+
+styles ->&#x20;
+
+E vamos adicioná-los dentro do constructor com o método .appendChild(), que criará um "nó" na árvore shadow DOM do componente.&#x20;
 
 ```javascript
 class CardComponent extends HTMLElement {
@@ -152,17 +170,17 @@ Dentro do método
 
 #### 05. Defina o Custom Element
 
-Por fim, com o customElements chamamos o método .define() para definir nosso elemento customizado. Ele recebe como primeiro parâmetro o seletor, que é o nome da nossa tag HTML, que deverá ser separado por hífen (para diferenciar das tags padrão que contém uma letra/palavra, por exemplo "p" ou "title"). Em seguida, passamos o construtor, nesse caso passamos a classe ButtonComponent.
+Por fim, com o customElements chamamos o método .define() para definir nosso elemento customizado. Ele recebe como primeiro parâmetro o seletor, que é o nome da nossa tag HTML, que deverá ser separado por hífen (para diferenciar das tags padrão que contém uma letra/palavra, por exemplo "p" ou "title"). Em seguida, passamos o construtor, nesse caso a classe CardComponent que contém o constructor do nosso elemento.
 
 ```javascript
-customElements.define('app-card', CardComponent)
+customElements.define('app-button', CardComponent)
 ```
 
 ### Considerações finais
 
 &#x20;Neste artigo aprendemos que componentes são do que um conjunto de elementos encapsulados numa tag html que podem ser reutilizados. Sob esse aspecto, foi possível acompanhar passos para criar um componente em JavaScript.
 
-Ter essa base é interessante para compreender como funciona, mas hoje temos frameworks e bibliotecas que nos possibilita criar componentes de forma mais prática.
+&#x20;Vale também salientar, que é interessante ter essa base para compreender como funciona os Web Components, mas hoje temos frameworks e bibliotecas que nos possibilita criar componentes de forma mais prática.
 
 ### Referências e Links Utilitários
 
