@@ -8,7 +8,7 @@ No artigo de hoje resolvi sintetizar alguns dos conceitos que estou estudando na
 
 &#x20;Os Web Components consistem em elementos customizados, reutilizáveis e independentes, compostos por um conjunto de tecnologias que são agrupadas numa tag HTML personalizada. Sob esse aspecto, a adoção de componentes traz como vantagens a redução da repetição de códigos,  facilidade de manutenção e escalabilidade, além melhorar a performance. Nesse sentido, o presente artigo trata acerca do tema de maneira teórica e prática através da criação de um componente.
 
-**Palavras-chave:** Web Componentes, JavaScript, Shadow DOM.
+**Palavras-chave:** Web Components, JavaScript, Shadow DOM.
 
 #### Você vai terminar este artigo sabendo:
 
@@ -194,7 +194,7 @@ customElements.define('card-component', CardComponent)
 
 Figura 07 – Estrutura do componente Card.
 
-<figure><img src="../.gitbook/assets/figura-estrutura-html-card.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/figura-07-estrutura-html-card.jpg" alt=""><figcaption></figcaption></figure>
 
 Fonte: Elaborado pelo autor.
 
@@ -427,7 +427,7 @@ A partir disso podemos replicar a mesma estrutura, alterando apenas o conteúdo 
 
 Figura 08 – Card Components no CodePen.
 
-<figure><img src="../.gitbook/assets/figura-html-cards.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/figura-08-html-cards.jpg" alt=""><figcaption></figcaption></figure>
 
 Fonte: CodePen. Elaborado pelo autor.
 
