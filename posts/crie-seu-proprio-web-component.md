@@ -190,7 +190,7 @@ class CardComponent extends HTMLElement {
 customElements.define('card-component', CardComponent)
 ```
 
-&#x20;Antes de codificar, vamos pensar na estrutura do nosso componente para termos em mente quais elementos vão compor ele. Para facilita a compreensão através da escrita, será feita uma estrutura bem simples, apenas com imagem e título, mas você pode conferir o exercício que resolvi do curso aqui.&#x20;
+&#x20;Antes de codificar, vamos pensar na estrutura do nosso componente para termos em mente quais elementos vão compor ele. Para facilitar a compreensão através da escrita, será feita uma estrutura bem simples, apenas com imagem e título, mas você pode conferir o exercício que resolvi do curso **Trabalhando com Web Components no Front-end** no meu perfil no [CodePen](https://codepen.io/elidianaandrade/pen/xxjWOVw).&#x20;
 
 Figura 07 – Estrutura do componente Card.
 
@@ -198,7 +198,7 @@ Figura 07 – Estrutura do componente Card.
 
 Fonte: Elaborado pelo autor.
 
-&#x20;Com isso, dentro do .build() vamos declarar a constante componentRoot
+&#x20;Com isso, dentro do .build() vamos começar declarando a constante componentRoot que será responsável por criar a nossa div principal, e vamos adicionar o atributo class nomeando de "card". Em seguida faremos o mesmo com as divs que vão agrupar o conteúdo 1 e o conteúdo 2 do nosso card, e vamos adicioná-las como filhas do nosso componentRoot, e por fim vamos retorná-lo:
 
 ```javascript
 class CardComponent extends HTMLElement {
@@ -214,6 +214,17 @@ class CardComponent extends HTMLElement {
   build(){
         const componentRoot = document.createElement("div");
         componentRoot.setAttribute("class", "card");
+        
+        const content1 = document.createElement("div");
+        content1.setAttribute("class", "card__content1");
+        
+        const content2 = document.createElement("div");
+        content2.setAttribute("class", "card__content2");
+        
+        componentRoot.appendChild(content1);
+        componentRoot.appendChild(content2);
+
+    return componentRoot;
   }
   
   styles(){}
@@ -223,7 +234,185 @@ class CardComponent extends HTMLElement {
 customElements.define('card-component', CardComponent)
 ```
 
-E no HTML, vamos preencher com o texto
+Feito isso, agora vamos adicionar os elementos que queremos em cada uma das divs de conteúdo. Na div "card\_\_content1", vamos inserir uma imagem que será a capa do card. Para isso vamos criar a constante cover, e inserir o atributo src para a URL da imagem e alt para o texto alternativo / descrição da imagem e referencia-los ao nome do atributo que vamos inserir no HTML. Por fim, vamos adicionar a constante cover como filha da nossa content1.&#x20;
+
+Já na div "card\_\_content2", vamos criar uma constante para o título e outra para a descrição, inserindo-as como filhas da content2:
+
+```javascript
+class CardComponent extends HTMLElement {
+
+  constructor() {
+        super();
+    
+        const shadow = this.attachShadow({mode: "open"});
+        shadow.appendChild(this.build());
+        shadow.appendChild(this.styles());
+  }
+  
+  build(){
+        const componentRoot = document.createElement("div");
+        componentRoot.setAttribute("class", "card");
+        
+        // Content 1
+        const content1 = document.createElement("div");
+        content1.setAttribute("class", "card__content1");
+  
+        const cover = document.createElement("img");
+        cover.src = this.getAttribute("cover")
+        cover.alt = "Card Cover";
+
+        content1.appendChild(cover);
+        
+        // Content 2
+        const content2 = document.createElement("div");
+        content2.setAttribute("class", "card__content2");
+        
+        const title = document.createElement("h3");
+        title.textContent = this.getAttribute("title");
+
+        const description = document.createElement("p");
+        description.textContent = this.getAttribute("description");
+
+        content2.appendChild(title);
+        content2.appendChild(description);
+        
+        componentRoot.appendChild(content1);
+        componentRoot.appendChild(content2);
+
+    return componentRoot;
+  }
+  
+  styles(){}
+ 
+}
+
+customElements.define('card-component', CardComponent)
+```
+
+Para estilizar, basta criar uma constante e atribuir a criação da tag "style" (veja no código abaixo) e retorná-la.  Em seguida, utilizando a propriedade .textContent adicione o conteúdo do CSS.
+
+```javascript
+class CardComponent extends HTMLElement {
+
+  constructor() {
+        super();
+    
+        const shadow = this.attachShadow({mode: "open"});
+        shadow.appendChild(this.build());
+        shadow.appendChild(this.styles());
+  }
+  
+  build(){
+        const componentRoot = document.createElement("div");
+        componentRoot.setAttribute("class", "card");
+        
+        // Content 1
+        const content1 = document.createElement("div");
+        content1.setAttribute("class", "card__content1");
+  
+        const cover = document.createElement("img");
+        cover.src = this.getAttribute("cover")
+        cover.alt = "Card Cover";
+
+        content1.appendChild(cover);
+        
+        // Content 2
+        const content2 = document.createElement("div");
+        content2.setAttribute("class", "card__content2");
+        
+        const title = document.createElement("h3");
+        title.textContent = this.getAttribute("title");
+
+        const description = document.createElement("p");
+        description.textContent = this.getAttribute("description");
+
+        content2.appendChild(title);
+        content2.appendChild(description);
+        
+        componentRoot.appendChild(content1);
+        componentRoot.appendChild(content2);
+
+    return componentRoot;
+  }
+  
+  styles(){
+    const style = document.createElement("style");
+    style.textContent = `
+       @import"https://fonts.googleapis.com/css2?family=Poppins&display=swap";
+       
+      .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 24rem;
+        height: 20rem;
+        background-color: #0A0B1C;
+        border: 0.1rem solid #181832;
+        border-radius: .5rem;
+        padding: 0;
+        margin: 0;
+      }
+      
+      .card__content1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: top;
+        max-width: 100%;
+        overflow: hidden;
+      }
+        
+      .card__content1 > img {
+         border-radius: .5rem 0 0 .5rem;
+         object-fit: cover;
+         user-select: none;
+      }
+      
+      .card__content2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: .5rem;
+        padding: 1.25rem;
+        font-family: "Poppins", Arial, sans-serif;
+        word-break: break-word;
+      }
+      
+      .card__content2 > span {
+          font-size: .9rem;
+          color: #8B8B8B;
+          text-transform: capitalize;
+          border-radius: 50rem;
+          padding: .5rem 1rem;
+          margin-right: auto;
+          user-select: none;
+      }
+      
+      .card__content2 > h3 {
+          font-size: 1.15rem;
+          font-weight: 500;
+          color: #FCFCFC;
+          margin: 0;
+      }
+      
+      .card__content2 > p {
+          font-size: .9rem;
+          text-align: justify;
+          color: #8B8B8B;
+          margin: 0;
+      }
+      
+    ` 
+    
+    return style;
+  }
+ 
+}
+
+customElements.define('card-component', CardComponent)
+```
+
+Por fim, no HTML, vamos inserir os atributos que criamos e preencher com o conteúdo desejado:
 
 ```html
 <card-component                                             
@@ -234,9 +423,15 @@ E no HTML, vamos preencher com o texto
 </card-component>
 ```
 
+A partir disso podemos replicar a mesma estrutura, alterando apenas o conteúdo de cada card:
+
+Figura 08 – Card Components no CodePen.
+
 <figure><img src="../.gitbook/assets/figura-html-cards.jpg" alt=""><figcaption></figcaption></figure>
 
 Fonte: CodePen. Elaborado pelo autor.
+
+Preview < [https://codepen.io/elidianaandrade/pen/JjvgJdB](https://codepen.io/elidianaandrade/pen/JjvgJdB) >.
 
 ### Considerações finais
 
