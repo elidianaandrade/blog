@@ -22,11 +22,11 @@ No artigo de hoje resolvi sintetizar alguns dos conceitos que estou estudando na
 
 É um conjunto de tecnologias que possibilita criar elementos customizáveis independentes que podem ser reutilizados na aplicação web. Dentre as tecnologias que compõem um Web Componente, temos:
 
-**Custom elements:** Elementos personalizados que possibilitam a criação de uma tag HTML personalizada que agrupa propriedades e métodos ;
+**Custom elements:** Possibilita a criação de elementos personalizados e definição do seu comportamento;
 
 **Shadow DOM:** Árvore "fantasma" anexada ao DOM (Document Object Model), renderizada separadamente;
 
-**HTML templates:**&#x20;
+**HTML templates:** Modelo HTML, "fragmentos" de marcação que podem ser instanciados posterior ao carregamento da página.
 
 &#x20; Na imagem a seguir, podemos observar que dentro do **Custom Element** "app-card" temos uma subárvore #shadow-root que contém a estrutura HTM do componente e a tag style que agrupa a estilização.
 
@@ -162,13 +162,13 @@ Figura 06 – Editor de código e visualização do componente no CodePen
 
 Fonte: CodePen. Elaborado pelo autor.
 
-&#x20;Com essa base, podemos ir desenvolvendo nosso componente de maneira mais rebuscada.
+&#x20;Com essa base, podemos ir desenvolvendo nosso componente de maneira mais rebuscada a partir dos próximos passos.
 
 #### 04. Insira métodos para construção e estilização do componente
 
-Para construir e estilizar o nosso componente vamos criar dois métodos, um para construirmos (`.build()`) a estrutura do nosso componente e outro para estilizá-lo (`.styles()`).
+Para construir e estilizar o nosso componente vamos inserir dois métodos, um para construirmos a estrutura do nosso componente (**`.build()`**)  e outro para estilizá-lo (**`.styles()`**).
 
-E vamos criar um "nó" na árvore shadow DOM do componente com o método .appendChild() dentro do constructor e a inserção destes métodos.
+E vamos criar um nó na árvore shadow DOM do componente com o método .appendChild() dentro do constructor, onde shadow representa o elemento pai e o this.build() / this.styles() o filho (nó a ser criado).
 
 ```javascript
 class CardComponent extends HTMLElement {
@@ -190,9 +190,53 @@ class CardComponent extends HTMLElement {
 customElements.define('card-component', CardComponent)
 ```
 
-Dentro do&#x20;
+&#x20;Antes de codificar, vamos pensar na estrutura do nosso componente para termos em mente quais elementos vão compor ele. Para facilita a compreensão através da escrita, será feita uma estrutura bem simples, apenas com imagem e título, mas você pode conferir o exercício que resolvi do curso aqui.&#x20;
 
+Figura 07 – Estrutura do componente Card.
 
+<figure><img src="../.gitbook/assets/figura-estrutura-html-card.jpg" alt=""><figcaption></figcaption></figure>
+
+Fonte: Elaborado pelo autor.
+
+&#x20;Com isso, dentro do .build() vamos declarar a constante componentRoot
+
+```javascript
+class CardComponent extends HTMLElement {
+
+  constructor() {
+        super();
+    
+        const shadow = this.attachShadow({mode: "open"});
+        shadow.appendChild(this.build());
+        shadow.appendChild(this.styles());
+  }
+  
+  build(){
+        const componentRoot = document.createElement("div");
+        componentRoot.setAttribute("class", "card");
+  }
+  
+  styles(){}
+ 
+}
+
+customElements.define('card-component', CardComponent)
+```
+
+E no HTML, vamos preencher com o texto
+
+```html
+<card-component                                             
+      cover="https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt4e5af408cc7a87b5/5eb7cdc17bedc8627eff8deb/V_AGENTS_587x900_Omen.png"
+      title="Uma Lembrança Fantasmagórica"
+      description="O Omen caça nas sombras e com sua paranoia cega os adversários assumindo o controle."
+>
+</card-component>
+```
+
+<figure><img src="../.gitbook/assets/figura-html-cards.jpg" alt=""><figcaption></figcaption></figure>
+
+Fonte: CodePen. Elaborado pelo autor.
 
 ### Considerações finais
 
