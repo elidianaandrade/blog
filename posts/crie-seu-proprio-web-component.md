@@ -1,9 +1,6 @@
----
-cover: ../.gitbook/assets/cover-05-crie-seu-proprio-web-component.jpg
-coverY: 0
----
-
 # Crie Seu Próprio Web Component
+
+<figure><img src="../.gitbook/assets/cover-05-crie-seu-proprio-web-component.jpg" alt=""><figcaption></figcaption></figure>
 
 Explore os conceitos de Web Components, criando seu próprio componente em JavaScript.
 
@@ -33,7 +30,7 @@ No artigo de hoje resolvi sintetizar alguns dos conceitos que estou estudando na
 
 **HTML templates:** Modelo HTML, "fragmentos" de marcação que podem ser instanciados posterior ao carregamento da página.
 
-&#x20; Na imagem a seguir, podemos observar que dentro do **Custom Element** "app-card" temos uma subárvore #shadow-root que contém a estrutura HTM do componente e a tag style que agrupa a estilização.
+&#x20; Na imagem a seguir, podemos observar que dentro do **Custom Element** "app-card" temos uma subárvore #shadow-root que contém a estrutura HTML do componente e a tag style que agrupa a estilização.
 
 Figura 01 – Inspetor do componente de um card no navegador Firefox.
 
@@ -65,7 +62,7 @@ Fonte: Digital Innovation One. Elaborado pelo autor.
 
 Além disso, os próprios botões presentes no componente do menu, podem ser baseados no componente botão, por exemplo, contendo características que estão presentes em todos os botões (um círculo com um ícone branco centralizado).
 
-&#x20;E é com essa mentalidade que podemos ir identificando outros componentes e momento de utilizá-los. Fazendo isso se reduz a repetição de código, e otimiza o trabalho do desenvolvedor, pois facilita a manutenção possibilitando a alteração automática do modelo de todas as "réplicas" de um mesmo componente, além de melhorar a performance e escalabilidade.
+&#x20;E é com essa mentalidade que podemos ir identificando outros componentes e o momento de utilizá-los. Fazendo isso se reduz a repetição de código, e otimiza o trabalho do desenvolvedor, pois facilita a manutenção possibilitando a alteração automática do modelo de todas as "réplicas" de um mesmo componente, além de melhorar a performance e escalabilidade.
 
 ### Passos para Criar um Componente
 
