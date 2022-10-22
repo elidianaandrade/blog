@@ -1,13 +1,8 @@
-# 2022-07-13-guia-rapido-para-utilizar-o-bootstrap-5
+# Guia Rápido para utilizar o Bootstrap 5
 
 <figure><img src="../media/covers/cover-04-guia-bootstrap5.png" alt=""><figcaption></figcaption></figure>
 
 Hoje eu trouxe um guia rápido para utilizar o Boostrap, sintetizando as principais ferramentas com diversos links para acesso na documentação, mais especificamente da sua versão 5, a fim de facilitar a busca e compreensão básica acerca do seu uso.
-
-\
-
-
-## Guia Rápido para utilizar o Bootstrap 5
 
 ### Resumo
 
@@ -250,7 +245,4 @@ BOOTSTRAP Blog. **Bootstrap 5 alpha!**. 2020. Disponível em: < [https://blog.ge
 
 BOOTSTRAP Blog. **Bootstrap 5.2.0 beta**. 2022. Disponível em: < [https://blog.getbootstrap.com/2022/05/13/bootstrap-5-2-0-beta/](https://blog.getbootstrap.com/2022/05/13/bootstrap-5-2-0-beta/) >.
 
-BOOSTRAP v5.0 Doc. **Introduction**. Disponível em: < [https://getbootstrap.com/docs/5.0/getting-started/introduction/](https://getbootstrap.com/docs/5.0/getting-started/introduction/) >.\
-
-
-[![Up](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/angle-up.svg)](2022-07-13-guia-rapido-para-utilizar-o-bootstrap-5.md#top)
+BOOSTRAP v5.0 Doc. **Introduction**. Disponível em: < [https://getbootstrap.com/docs/5.0/getting-started/introduction/](https://getbootstrap.com/docs/5.0/getting-started/introduction/) >.
