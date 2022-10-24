@@ -1,13 +1,8 @@
-# 2022-06-30-destrave-seu-primeiro-desafio-de-codigo
+# Destrave seu primeiro Desafio de Código
 
-<figure><img src="../media/covers/capa-artigo-desafio-de-codigo.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/cover-02-destrave-desafios-de-codigo" alt=""><figcaption></figcaption></figure>
 
 Neste artigo decidi abordar uma etapa muito importante e que está presente nos Bootcamps da plataforma: os desafios de código. Ao me deparar com o meu primeiro desafio, embora eu reconhecesse que se tratava de uma tarefa simples, acabei travando a princípio até seguir as etapas que abordo neste artigo. Então, como não travar na hora de resolver os desafios de código?
-
-\
-
-
-## Destrave seu primeiro Desafio de Código
 
 ### Resumo
 
@@ -19,16 +14,15 @@ Para quem está começando no mundo da programação, sobretudo os que estão em
 
 Figura 01 – Interface da área de desafios de código da Digital Innovation One – DIO.
 
-![Figura 01 – Interface da área de desafios de código da Digital Innovation One – DIO.](../media/post-02/interface-desafio-de-codigo-dio.PNG)
+<figure><img src="../media/post-02/interface-desafio-de-codigo-dio.PNG" alt=""><figcaption></figcaption></figure>
 
 Fonte: Digital Innovation One. Elaborado pelo autor.
 
-Os desafios de código geralmente são compostos por um enunciado que descreve o desafio proposto e a entrada e saída esperada, que podem ser lidos na barra lateral esquerda da interface, ao passo que o código pode ser escrito, salvo, e executado ao lado direito, que contém também um exemplo de código que pode ou não ser utilizado na sua resolução. Na parte inferior dessa área onde o código deve ser escrito, possui um conjunto de testes que ele será submetido, sendo alguns abertos, onde você pode verificar o tipo de saída que ele retorna de acordo com a entrada definida, e outros fechados, que não possibilitam essa visualização (Figura 01). Além disso, na barra lateral consta um menu com ícones que levam a abas referentes a descrição do desafio (ícone de livro), instruções para a resolução (ícone “i”) e dúvidas (ícone com a interrogação) que conta também com um tour interativo.\
-
+Os desafios de código geralmente são compostos por um enunciado que descreve o desafio proposto e a entrada e saída esperada, que podem ser lidos na barra lateral esquerda da interface, ao passo que o código pode ser escrito, salvo, e executado ao lado direito, que contém também um exemplo de código que pode ou não ser utilizado na sua resolução. Na parte inferior dessa área onde o código deve ser escrito, possui um conjunto de testes que ele será submetido, sendo alguns abertos, onde você pode verificar o tipo de saída que ele retorna de acordo com a entrada definida, e outros fechados, que não possibilitam essa visualização (Figura 01). Além disso, na barra lateral consta um menu com ícones que levam a abas referentes a descrição do desafio (ícone de livro), instruções para a resolução (ícone “i”) e dúvidas (ícone com a interrogação) que conta também com um tour interativo.
 
 Figura 02 – Tipos de retorno após a execução dos testes do desafio de código.
 
-![Figura 02 – Tipos de retorno após a execução dos testes do desafio de código.](../media/post-02/retornos-desafio-codigo.png)
+<figure><img src="../media/post-02/retornos-desafio-codigo.png" alt=""><figcaption></figcaption></figure>
 
 Fonte: Digital Innovation One. Elaborado pelo autor.
 
@@ -74,7 +68,7 @@ A vantagem de resolver os desafios de código na plataforma, é que você pode t
 
 Figura 03 – Teste aberto com resultado incorreto no desafio de código “Quadrado e ao Cubo”.
 
-![Figura 03 – Teste aberto com resultado incorreto no desafio de código “Quadrado e ao Cubo”.](../media/post-02/teste-aberto-desafio-codigo.png)
+<figure><img src="../media/post-02/teste-aberto-desafio-codigo.png" alt=""><figcaption></figcaption></figure>
 
 Fonte: Digital Innovation One. Elaborado pelo autor.
 
@@ -97,6 +91,3 @@ DIGITAL INNOVATION ONE. Como resolver os desafios de código na DIO e pensamento
 DIGITAL INNOVATION ONE. Curso Lógica de Programação Essencial. Disponível em: < https://web.dio.me/course/logica-de-programacao-essencial/learning/aea1ea26-fd56-417d-8272-6e15253f4405/ >.
 
 DIGITAL INNOVATION ONE. Curso Pensamento Computacional. Disponível em: < https://web.dio.me/course/pensamento-computacional/learning/050675c1-8a7f-476b-a778-9b1c7eb75744/ >.
-
-\
-[![Up](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/angle-up.svg)](2022-06-30-destrave-seu-primeiro-desafio-de-codigo.md#top)
