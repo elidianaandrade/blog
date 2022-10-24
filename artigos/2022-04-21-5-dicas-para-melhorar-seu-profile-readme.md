@@ -34,8 +34,6 @@ Você pode conferir os parâmetros para personalização em https://shields.io/.
 
 ### 3. Adicione uma ilustração ou imagem que você se identifique <a href="#dica3" id="dica3"></a>
 
-<figure><img src="https://user-images.githubusercontent.com/97471199/164148375-75b79a9a-77a4-43df-b3fd-b6472d8a8670.png" alt=""><figcaption></figcaption></figure>
-
 No meu perfil, por exemplo, optei por utilizar essa ilustração que encontrei no [Freepik](https://www.freepik.com/vectors/developer), pois trouxe vários elementos que se conectam comigo.\
 Um dos pontos foi o desktop, a maioria das ilustrações que eu encontrava eram desenvolvedores em notebook, e me identifiquei com essa porque utilizo desktop. Além disso, tem o café preto quentinho (a única diferença é que mantenho ele longe do computador 🤣).
 
