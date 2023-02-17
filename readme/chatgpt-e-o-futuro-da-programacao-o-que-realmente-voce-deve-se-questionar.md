@@ -46,7 +46,7 @@ Nesse contexto, alguns dos pontos que devem ser considerados são:
 
 #### O Impacto no Aprendizado
 
-A cópia do conteúdo gerado por essa tecnologia, já vem preocupando educadores e pesquisadores. Inclusive sua proibição como coautor já vem sendo apontada, visto que recaí não apenas em questões referentes a veracidade das informações prestadas. Nesse contexto, a própria empresa criadora do ChatGPT, tem trabalhado também na **AI classifier**, para identificar textos escritos por IA.
+A cópia do conteúdo gerado por essa tecnologia, já vem preocupando educadores e pesquisadores. Inclusive sua [proibição como coautor](https://www.theguardian.com/science/2023/jan/26/science-journals-ban-listing-of-chatgpt-as-co-author-on-papers) já vem sendo apontada, visto que recaí não apenas em questões referentes a veracidade das informações prestadas, mas também na ausência de referências. Nesse contexto, a própria empresa criadora do ChatGPT, tem trabalhado também na **AI classifier**, para identificar textos escritos por IA.
 
 Uma das principais características de um desenvolvedor é a resolução de problemas. Com isso, repassar o conteúdo gerado pela IA, acaba sendo uma autossabotagem, e não te diferencia muito de uma atitude “robótica”. É essencial saber não apenas ler a solução, e sim interpretar em quais contextos e de que forma deve ser aplicada. Entender as capacidades e limitações da ferramenta, é outro ponto que auxilia no uso adequado da tecnologia.
 
