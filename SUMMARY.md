@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Artigos](README.md)
+  * [ChatGPT e o futuro da Programação: O que realmente você deve se questionar?](readme/chatgpt-e-o-futuro-da-programacao-o-que-realmente-voce-deve-se-questionar.md)
   * [5 Dicas Essenciais para Aprender a Programar em Qualquer Linguagem! #CommunityWeek](readme/5-dicas-essenciais-para-aprender-a-programar-em-qualquer-linguagem-communityweek.md)
   * [Crie Seu Próprio Web Component](artigos/crie-seu-proprio-web-component.md)
   * [Guia Rápido para utilizar o Bootstrap 5](artigos/2022-07-13-guia-rapido-para-utilizar-o-bootstrap-5.md)
