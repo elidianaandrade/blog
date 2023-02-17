@@ -16,7 +16,7 @@ Em poucos meses de lançamento, seu crescimento acelerado promoveu uma alta repe
 
 Antes de se questionar se será ou não substituído por um chatbot, considere refletir sobre o que te leva a pensar que essa troca poderia acontecer, como características e habilidades que podem nos assemelhar e diferenciar dessa tecnologia.
 
-Diariamente somos influenciados pelo conteúdo que consumimos no meio digital e como interagimos com ele. A exemplo o “filtro bolha” afetando os sistemas de buscas e a forma como vemos o mundo, a produção e consumo massivo de conteúdos curtos e superficiais nas redes sociais, compartilhamento de notícias falsas, etc. Nesse contexto, a reprodução de conteúdo sem averiguar a veracidade das informações não é o único problema, tendo em vista que cópias de conteúdos autênticos também impactam negativamente o desenvolvimento do indivíduo.
+Diariamente somos influenciados pelo conteúdo que consumimos no meio digital e como interagimos com ele. A exemplo o “filtro bolha” afetando os sistemas de buscas e a forma como vemos o mundo, a produção e consumo massivo de conteúdos curtos e superficiais nas redes sociais, compartilhamento de notícias falsas, etc. Nesse contexto, a reprodução de conteúdo sem averiguar a veracidade das informações não é o único problema, tendo em vista que cópias de conteúdos autênticos também impactam negativamente no desenvolvimento do indivíduo.
 
 A superestimação acerca da Inteligência Artificial, faz com que muitos esqueçam que no fim das contas o conteúdo gerado por elas é basicamente fruto do trabalho de humanos “reembalado” como algo novo, como aborda Haggart, professor de Ciência Política da Brock University:
 
